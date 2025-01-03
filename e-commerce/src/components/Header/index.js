@@ -5,7 +5,7 @@ const header = () => {
     <div>
       <div className="header">
         <div className="topstrip">
-          <div className="container"><p className="mb-0 mt-5a text-center">Welcome to <b>Famazone</b>, we hope u like our services!</p></div>
+          <div className="container"><p className="mb-0 mt-3 text-center">Welcome to <b>Famazone</b>, we hope u like our services!</p></div>
         </div>
       </div>
     </div>
