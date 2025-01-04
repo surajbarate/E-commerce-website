@@ -13,7 +13,7 @@ const header = () => {
             <div className="Logo container-sm-2"> 
               <Link to={'/'}><img src={Logo} alt='Famazone' /></Link>
             </div>
-            <div className="container-sm-9"></div>
+            div.container-sm-9
           </div>
         </div>
       </div>
