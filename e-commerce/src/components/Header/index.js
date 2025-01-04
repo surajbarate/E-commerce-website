@@ -10,7 +10,7 @@ const header = () => {
         </div>
         <div className="header1">
           <div className="row">
-            <div className="Logo container-sm-2"> 
+            <div className="Logo container-sm-2">
               <Link to={'/'}><img src={Logo} alt='Famazone' /></Link>
             </div>
             <div className="container-sm-9"></div>
