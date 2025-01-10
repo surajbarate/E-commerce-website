@@ -3,12 +3,15 @@
   padding: 0;
 }
 
+@import "bootstrap";
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 body {
   font-family: "Lato", sans-serif;
 }
 
+<<<<<<< HEAD
 
 .bg-green {
   background-color: rgb(19, 111, 0);
@@ -73,3 +76,72 @@ opacity: 0; visibility: hidden; transition: all 0.5s cubic-bezier(1, 0.59, 0, 2.
 .text-gray{
 color: gray;
 } 
+
+.bg-blue {
+  background-color: rgb(23, 138, 0);
+}
+
+.bg-green {
+  background-color: rgb(19, 111, 0);
+
+}
+
+.p-80l {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.bg-offwhite {
+  background-color: #f8f9fa;
+  /* Light gray background */
+}
+
+.scroll {
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.no-border-list .list-group-item {
+  border: none;
+  /* Remove borders */
+  padding: 0.5rem 0;
+  /* Adjust padding if needed */
+}
+
+.no-border-list .btn {
+  text-align: left;
+  /* Align text to the left */
+  border: none;
+  /* Remove button borders */
+
+  /* Optional: Remove button background */
+  padding: 0.5rem;
+  /* Adjust padding for better spacing */
+}
+
+@media (max-width: 768px) {
+  .header1 .img-fluid {
+    width: 100px;
+    height: auto;
+  }
+}
+
+/* Adjust logo size for different screen sizes */
+@media (max-width: 576px) {
+  .logo img {
+    max-width: 50px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .logo img {
+    max-width: 80px;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo img {
+    max-width: 120px;
+  }
+}
+
