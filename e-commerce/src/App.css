@@ -1,11 +1,75 @@
-*{
-  margin: 0; padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-body{
+body {
   font-family: "Lato", sans-serif;
 }
-.bg-blue{
-  background-color: rgb(23, 138, 0);
+
+
+.bg-green {
+  background-color: rgb(19, 111, 0);
 }
+
+.navp1 {
+  margin: 20px;
+}
+
+.threeLine svg {
+
+  font-size: 22px;
+
+}
+
+.arrowdown1 svg {
+
+  font-size: 20px;
+
+}
+
+nav .categories {
+
+  border-radius: 15px;
+}
+
+.rest {
+  padding-left: 71px;
+  padding-right: 0;
+}
+
+.rest button {
+  padding: 0 14px;
+}
+.rest :hover button {
+  background: transparent;
+  padding: 0 14px;
+}
+.text-gray {
+  color: gray;
+}
+.subdiv{
+  padding-top:  10px;
+  gap: 5px;
+  background-color:white;
+display: flex;
+flex-direction: column;
+align-items: start;
+position: absolute; top: 100%; left:0px; min-width: -300px;
+opacity: 0; visibility: hidden; transition: all 0.5s cubic-bezier(1, 0.59, 0, 2.06);
+}
+.options{
+ 
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.options:hover .subdiv{
+  
+  opacity: 1; visibility: inherit; top: 100%;
+}
+.text-gray{
+color: gray;
+} 
