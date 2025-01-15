@@ -1,16 +1,4 @@
-<<<<<<< HEAD
-import React from 'react'
 
-const index = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
-
-export default index
-=======
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../../asets/images/logo.jpg'; // Corrected typo in the path (asets -> assets)
@@ -43,10 +31,10 @@ const Header = () => {
             </div>
 
             {/* Search Bar */}
-            <div className="flex-grow-1 ">
+            <div className="flex-grow-1 ml-2 ">
               <form className="d-flex justify-content-center">
                 <input
-                  className="form-control me-2"
+                  className="form-control me-2 mr-4"
                   type="search"
                   placeholder="Search for products"
                   aria-label="Search"
@@ -111,4 +99,4 @@ const Header = () => {
 };
 
 export default Header;
->>>>>>> 04c9963acaf3389dde9de96cbefacc2e3b5e3914
+
